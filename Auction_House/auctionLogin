@@ -88,7 +88,7 @@
 		</form>
 
 	<form class="login-form">
-	<input type="text" placeholder="user name"/>
+	<input type="text" placeholder="username"/>
 	<input type="text" placeholder="password"/>
 	<button>login</button>
 	<p class="message">Not Signed Up? <a href="#"> Register</a></p>
