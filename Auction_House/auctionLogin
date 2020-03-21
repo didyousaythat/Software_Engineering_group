@@ -1,23 +1,9 @@
 <html>
 <head>
-<title>Login and Registration For Auction House</title>
-	<link rel="stylesheet" href="style.css">
+    <title>Login and Registration For Auction House</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<style>
-	body{
-	background-image: url(imgReg.jpg);
-	height: 100vh;
-	background-size: cover;
-	backgroud-position: center;
-}
-
-.login-page{
-	width: 360px;
-	padding:10% 0 0;
-	margin: auto;
-}
-	</style>
     <a href="imgReg.jpg">Open Image</a> 
 	<div class="login-page">
 	<div class="form">
