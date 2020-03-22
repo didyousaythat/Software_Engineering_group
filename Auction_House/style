@@ -2,7 +2,20 @@ body{
 		background-image: url(imgReg.jpg);
 		height: 100vh;
 		background-size: cover;
-		backgroud-position: center;
+		background-position: center;
+	}
+
+	.btn{
+		font-family: "Roboto", sans-serif;
+		text-transform: uppercase;
+		outline: 0;
+		background-color: #4CAF50;
+		width: 100%;
+		border: 0;
+		padding: 15px;
+		color: #FFFFFF;
+		font-size: 14px;
+		cursor: pointer;
 	}
 
 	.login-page{
@@ -38,10 +51,10 @@ body{
 		outline: 0;
 		background: #4CAF50;
 		width: 100%;
-		border 0;
+		border: 0;
 		padding: 15px;
 		color: #FFFFFF;
-		font_size: 14px;
+		font-size: 14px;
 		cursor: pointer;
 		
 	}
@@ -63,4 +76,17 @@ body{
 
 	.form .register-form{
 		display: none;
+	}
+
+	.textInput{
+		margin-top: 2px;
+		height: 28px;
+		border: 1px solid #5E6E66;
+		font-size: 16px;
+		padding: 1px;
+		width: 100%;
+	}
+
+	.val_error{
+		color: #FF1F1F
 	}
