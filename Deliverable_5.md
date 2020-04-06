@@ -38,23 +38,32 @@ __Main-flow:__
 ## Design Patterns:
   a. Singleton
   ![Alt Text](https://i.imgur.com/3fWBHKp.png)
+  
   Gets a single instance of the Auction object. [code link](https://github.com/didyousaythat/Software_Engineering_group/blob/master/Deliverable_5/Auction.java)
+  
   b. Template:
   ![Alt Text](https://i.imgur.com/chTodKM.png)
+  
   Hypothetical usage of the template method to add a new user. [code link](https://github.com/didyousaythat/Software_Engineering_group/blob/master/Deliverable_5/User.java)
+  
   c. Composite:
   ![Alt Text](https://i.imgur.com/qbMHXeD.jpg)
+  
   Hypothetical usage of using a composite method to control buyer and seller with user. [code link](https://github.com/didyousaythat/Software_Engineering_group/blob/master/Deliverable_5/Composite.java)
 
 ## Design Principles:
 
 __Single Responsibility Principle__: An example of this principle would be in our Bid class. This class only has one job, 
 and that is to store bid values. A bid will only change if a user elects to change their bid.
+
 __Open/Closed Principle__: An example of this principle would be our User class. The code in the user class should not be 
 modified. Instead, we would allow for modification through applying the Buyer/Seller classes.
+
 __Liskov Substitution Principle__: An example of this principle would be our MethodOfBuying class. Both subclasses, Bid and 
 BuyOut, are valid substitutions for a MethodofBuying. 
+
 __Interface Segregation Principle__: An example of this principle would be the login screen. A user will only see the login 
 screen if they have already made an account. If the user needs to make an account, then they can use the separate method.
+
 __Dependency Inversion Principle__: An example of this principle would be our Communication class within our Buyer/Seller 
 class. While our Buyer and Seller classes make use of the Communication class, they are not dependent on the Communication class. 
