@@ -36,17 +36,20 @@ __Main-flow:__
   4. User successfully logs in
 
 ## Design Patterns:
-  a. Singleton
+  a. __Singleton__:
+  
   ![Alt Text](https://i.imgur.com/3fWBHKp.png)
   
   Gets a single instance of the Auction object. [code link](https://github.com/didyousaythat/Software_Engineering_group/blob/master/Deliverable_5/Auction.java)
   
-  b. Template:
+  b. __Template__:
+  
   ![Alt Text](https://i.imgur.com/chTodKM.png)
   
   Hypothetical usage of the template method to add a new user. [code link](https://github.com/didyousaythat/Software_Engineering_group/blob/master/Deliverable_5/User.java)
   
-  c. Composite:
+  c. __Composite__:
+  
   ![Alt Text](https://i.imgur.com/qbMHXeD.jpg)
   
   Hypothetical usage of using a composite method to control buyer and seller with user. [code link](https://github.com/didyousaythat/Software_Engineering_group/blob/master/Deliverable_5/Composite.java)
