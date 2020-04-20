@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+      <title>Ipsum|Student Auction House</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link
+         href="https://fonts.googleapis.com/icon?family=Material+Icons"
+         rel="stylesheet"
+      />
+      <link rel="stylesheet" type="text/css" href="product.css" />
+      <script src="search.js" type="module"></script>
+   </head>
+
+   <body>
+      <header>
+         <div class="banner">
+            <h1>Ipsum</h1>
+            <h3>Student Auction house</h3>
+            <a href="#profile" class="material-icons" id="profile">
+               face
+            </a>
+            <a href="#cart" class="material-icons" id="cart">
+               shopping_cart
+            </a>
+         </div>
+
+         <div class="topnav">
+            <a href="/">Home</a>
+            <a href="#all">All</a>
+            <a href="#collections">Collections</a>
+            <a href="#electronics">Electronics</a>
+            <a href="#homelife">Home Life</a>
+            <a href="#fashion">Fashion</a>
+            <a href="#sports">Sports</a>
+         </div>
+      </header>
+
+      <main>
+         <div class="prod-card">
+            <a href="#user">
+               Mil' Burray
+            </a>
+            <div class="prod-image">
+               <img
+                  src="/prodImages/06.jpg"
+                  alt="dresser"
+               />
+            </div>
+            <p>$23.00</p>
+         </div>
+         <div class="bid">
+            <form action="">
+               <input type="text" placeholder="$24.00" name="bid" />
+               <button type="button" class="button">
+                  Bid 🡆
+               </button>
+            </form>
+         </div>
+         <div class="prod-info">
+            <h2>Used Dresser</h2>
+            <p>
+               The FitnessGram™ Pacer Test is a multistage aerobic capacity test
+               that progressively gets more difficult as it continues. The 20
+               meter pacer test will begin in 30 seconds. Line up at the start.
+               The running speed starts slowly, but gets faster each minute
+               after you hear this signal. [beep] A single lap should be
+               completed each time you hear this sound. [ding] Remember to run
+               in a straight line, and run as long as possible. The second time
+               you fail to complete a lap before the sound, your test is over.
+               The test will begin on the word start. On your mark, get ready,
+               start.
+            </p>
+         </div>
+      </main>
+
+      <footer>
+         <a href="#home">Home</a>
+         <a href="#all">All</a>
+         <a href="#collections">Collections</a>
+         <a href="#electronics">Electronics</a>
+         <a href="#homelife">Home Life</a>
+         <a href="#fashion">Fashion</a>
+         <a href="#sports">Sports</a>
+      </footer>
+
+      <script src='https://code.jquery.com/jquery-3.4.1.min.js'>
+      </script>
+      <script>
+         $('.button').click( function() {
+            $('.bid').css('opacity', '0.5');
+            $('.prod-card').css('background', 'linear-gradient(var(--foreground), var(--accent-light))');
+            $('.topnav').css("background-color", "var(--accent-dark)");
+            $('.prod-card p').text("$24.00");
+         })
+      </script>
+   </body>
+   
+</html>
