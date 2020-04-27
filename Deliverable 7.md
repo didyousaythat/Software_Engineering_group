@@ -2,9 +2,9 @@
 *Joshua Geyer, Ian McIlrath*
 CS386 Section 3, Project group 4
 
-#Deliverable 7: Verification and Validation
+# Deliverable 7: Verification and Validation
 
-##I. Description
+## I. Description
 Our system provides an auction house over the web for students to buy and sell
 products for school faster and locally. Instead of visiting multiple sites
 users can login with a registered account and start browsing the auction house.
@@ -15,15 +15,15 @@ they can either bid or choose buyout (buy now option). If the user wants to sell
 then they can submit an item as an auction by providing enough details for the
 item to be valid.
 
-##II. Verification
-###1. Unit Tests
+## II. Verification
+### 1. Unit Tests
 
 Test framework that we thought would work was the PHPUnit
 [Project Folder](https://github.com/didyousaythat/Software_Engineering_group/tree/master/Auction_House)
 [Test Example](https://github.com/tfrommen/unit-test-examples/blob/master/tests/php/FortuneTellerTest.php)
 ![image](https://i.imgur.com/006XvEw.png)
     
-###2. Integration Tests
+### 2. Integration Tests
 
 Test framework that we thought would work was the PHP unit
 [Project Folder](https://github.com/didyousaythat/Software_Engineering_group/tree/master/Auction_House)
@@ -31,7 +31,7 @@ Test framework that we thought would work was the PHP unit
 [Other test](https://github.com/alexnederlof/integration-testing-example/blob/master/src/test/java/com/alexnederlof/inttesting/SlowTest.java.)
 I was also unable to get the integration tests working for our project, due to issues running PHPUnit. 
 
-###3. Acceptance Tests
+### 3. Acceptance Tests
 
 Test framework that we thought would so well was the Mocha framework for node.js
 [Project Folder](https://github.com/didyousaythat/Software_Engineering_group/tree/master/Auction_House)
@@ -39,8 +39,8 @@ Test framework that we thought would so well was the Mocha framework for node.js
 ![image](https://i.imgur.com/JoWBBr7.png)
 
 
-##III. Validation
-###Script & Results
+## III. Validation
+### Script & Results
 	Instruct the user to register through the login page.
 	Allow them to roam the homepage, then instruct them to click on a listing.
 	After a while, ask them to bid on the listing.
@@ -76,7 +76,7 @@ a) 1
 b) 1
 c) 1
 
-###Reflections
+### Reflections
 	
 **Features that Worked Well:**
 When registering for an account it checks for validation of user input
